@@ -1,0 +1,5 @@
+numero = int(input('Digite um valor: '))
+print("===============================")
+print('Dobro: ',(numero * 2))
+print('triplo: ',(numero * 3))
+print(f'Raiz: {numero ** 0.5:.2f}')

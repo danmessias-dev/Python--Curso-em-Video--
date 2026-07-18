@@ -1,0 +1,5 @@
+numero = int(input("informe um numero: "))
+print()
+print('Numero informado: ', numero)
+print('Antecessor', (numero - 1))
+print('Sucessor', (numero + 1))
