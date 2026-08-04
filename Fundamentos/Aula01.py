@@ -1,20 +1,40 @@
-#print("Olá Mundo!") 
-#print("Hello World!") 
+# ============================================
+# Curso de Python - Exercícios da Aula 01
+# Objetivo: Praticar entrada de dados (input),
+# variáveis, tipos de dados e saída com f-string.
+# ============================================
 
-# Exercicio da aula 01
+# --------------------------------------------
+# Exercício 1 - Saudação personalizada
+# Solicita o nome do usuário e exibe uma
+# mensagem de boas-vindas.
+# --------------------------------------------
 
-# 1°
-# nome = str(input("Qual é seu nome? "))
+# nome = input("Qual é seu nome? ")
 # print(f"Olá {nome}! Prazer em te conhecer!")
 
-# 2°
-# dia = int(input("Dia = "))
-# mes = str(input("Mes = "))
-# ano = int(input("Ano = "))
+
+# --------------------------------------------
+# Exercício 2 - Data de nascimento
+# Solicita dia, mês e ano de nascimento
+# e exibe a data informada pelo usuário.
+# --------------------------------------------
+
+# dia = int(input("Dia: "))
+# mes = input("Mês: ")
+# ano = int(input("Ano: "))
 # print(f"Você nasceu no dia {dia} de {mes} de {ano}. Correto?")
 
-# 3° 
-numero = int(input("Digite um numero: "))
-numero1 = int(input("Digite outro numero: "))
+
+# --------------------------------------------
+# Exercício 3 - Soma de dois números
+# Recebe dois números inteiros e exibe
+# o resultado da soma.
+# --------------------------------------------
+
+numero = int(input("Digite um número: "))
+numero1 = int(input("Digite outro número: "))
+
 soma = numero + numero1
-print(f"A Soma é {soma}")
+
+print(f"A soma é {soma}")
